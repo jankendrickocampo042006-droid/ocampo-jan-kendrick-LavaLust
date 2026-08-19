@@ -39,7 +39,7 @@
                 <p class="eyebrow">Information page / 2026</p>
                 <h1>Make room<br>for ideas.</h1>
             </div>
-            <p class="intro"><strong>Welcome to my student space.</strong>A small corner for the work, interests, and details behind the name.</p>
+            <p class="intro"><strong>Welcome to my student space.</strong>.</p>
         </section>
 
         <?php if (!empty($middleware_blocked)): ?>
