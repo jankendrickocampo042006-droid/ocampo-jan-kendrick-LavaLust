@@ -44,7 +44,8 @@ defined('PREVENT_DIRECT_ACCESS') OR exit('No direct script access allowed');
 */
 /** @var object $router **/
 
-$router->get('/', 'Welcome::index');
+<?php
+$router->get('/', 'StudentController::index');
 
 // Student Routes
 $router->get('/student', 'StudentController::index');
